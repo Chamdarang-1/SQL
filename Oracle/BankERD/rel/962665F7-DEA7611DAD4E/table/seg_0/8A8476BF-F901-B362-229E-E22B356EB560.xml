@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A8476BF-F901-B362-229E-E22B356EB560" name="bank_customer">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:07:32 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="c_no" id="17630355-A4B8-E8FE-4F84-999F94780A2F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:09:21 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_name" id="2ECA9868-B082-3C45-ABAA-1B691FFF74ED">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:09:21 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_dist" id="3A404B14-15A9-3AA9-8C3D-DD42E0175FF4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:09:21 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_phone" id="0DD52F2D-8288-FE15-5F22-A655B251BA05">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:09:21 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_addr" id="F47F3BD7-A643-6E3B-9939-A1FFF9AD4702">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:09:21 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80684B93-FA99-3214-B0D2-7F39C1EBA3CC" name="bank_customer_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:09:21 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17630355-A4B8-E8FE-4F84-999F94780A2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

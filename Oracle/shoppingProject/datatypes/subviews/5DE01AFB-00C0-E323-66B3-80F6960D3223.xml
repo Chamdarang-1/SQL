@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypes" id="4D69740A-862C-1AC4-9634-8DAEEAE8DC8B">
+<Diagram class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypes" id="5DE01AFB-00C0-E323-66B3-80F6960D3223">
 <createdBy>GGG</createdBy>
 <modifiedBy>GGG</modifiedBy>
-<createdTime>2025-08-11 06:13:19 UTC</createdTime>
+<createdTime>2025-08-11 06:14:18 UTC</createdTime>
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
 <showLegend>false</showLegend>
@@ -14,11 +14,11 @@
 <display>false</display>
 <notation>1</notation>
 <objectViews>
-<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="47E390DE-0671-C4B1-8428-0F45CBEE18F8" otype="StructuredType" vid="EF6B3DC7-CB1F-AF1C-F0F3-16215ADCDB0F">
+<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="47E390DE-0671-C4B1-8428-0F45CBEE18F8" otype="StructuredType" vid="958C109C-4BD3-A762-7E66-3AA88F561405">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="20" y="20" width="100" height="100"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" otype="StructuredType" vid="805D74E0-178A-656C-5656-A20219601AEC">
+<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" otype="StructuredType" vid="37028A4C-5639-B83D-18ED-D948D413077D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="20" y="20" width="100" height="100"/>
 </OView>

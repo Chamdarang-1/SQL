@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEA7B3E7-E545-A9AD-E218-041314DE5582" name="bank_account">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:09:23 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="a_no" id="E8266F45-16D6-6E44-3697-AD2613294F0F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:11:02 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a_item_dist" id="3F264395-3DB4-C764-91C9-117E3B7B8957">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:11:02 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a_item_name" id="27450A03-AD58-9130-5157-459C69F772AA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:11:02 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a_c_no" id="FB800C2F-1A00-02F7-A24C-9800FC21E410">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:58 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10ABD508-473A-5A72-C8B5-172C07F2B66B" referredColumn="17630355-A4B8-E8FE-4F84-999F94780A2F"/>
+</associations>
+</Column>
+<Column name="a_balance" id="9E25D311-0B84-446F-5C8A-F27BC0108E8E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:11:02 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a_open_date" id="33FE1768-D788-EF3E-9888-DAC46F06F939">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:11:02 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C420B27-3F4D-36A6-E494-68D72D077EDC" name="bank_account_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:11:02 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8266F45-16D6-6E44-3697-AD2613294F0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B48B34F2-E3AF-475D-DF59-AD489ED4D58E" name="bank_account_bank_customer_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:58 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB800C2F-1A00-02F7-A24C-9800FC21E410"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

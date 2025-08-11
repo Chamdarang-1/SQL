@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="27275E93-7FE0-E86D-4F3D-E2919FD47EC7" mainViewID="1C7BAF10-451F-93DA-FB81-AC8D27B9AEA5">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2582177C-256C-65F1-E794-CF5FE8CB2D8E" mainViewID="94080A33-E980-C778-81ED-4E490404EC6D">
 <createdBy>GGG</createdBy>
-<createdTime>2025-08-11 06:13:19 UTC</createdTime>
+<createdTime>2025-08-11 06:14:18 UTC</createdTime>
 <ownerDesignName>shoppingProject</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

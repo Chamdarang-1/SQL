@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D180042-CAA0-141D-7C4A-64BDE3B27D0A" name="User">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:14:53 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="userId" id="8699B8F4-5D6B-5580-A513-4D539F284EEE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="0BE73294-824E-DE8F-7F44-C8829FA186AA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth" id="60894C36-023A-B0DD-586C-88F61214EF92">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="36072A4B-08C9-DE5F-8F7D-378E3B747CDF">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hp" id="2BD6B281-BC0B-59CF-F748-E7D19B9EAAEF">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="3761381A-FBA1-E355-D5AA-1EF257E1CC2C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="point" id="1AB01968-6FA2-8D87-B6E2-CD96AA86010C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="level" id="7A88AFB3-1394-926B-F12A-2C2D320A9957">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="C9196D68-D723-1AC6-5565-696FEE26C6F7">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regDate" id="AA061F5B-967F-A20E-285F-F630DC76F1F9">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58581BAD-91ED-2CA9-24D7-D446C2AF2CFC" name="User_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:20:48 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8699B8F4-5D6B-5580-A513-4D539F284EEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B234F04C-E4E9-1D9F-B6A3-A580C02A4BBF" name="User__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:38:38 UTC</createdTime>
+<ownerDesignName>shoppingProject</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BD6B281-BC0B-59CF-F748-E7D19B9EAAEF"/>
+<colUsage columnID="3761381A-FBA1-E355-D5AA-1EF257E1CC2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
