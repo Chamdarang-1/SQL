@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C182DEE1-50B0-D841-953D-F74E9A42E4C9" mainViewID="E17A8FE5-6E62-7246-FAD4-32B009DC0C63">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:04:28 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

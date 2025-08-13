@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF044214-71BA-ABE6-86C9-1937336A515A" name="Customer">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:04:48 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cust_jumin" id="9F196ABD-D424-1CBA-A849-C820AD995F60">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:43 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="70779A5F-55B8-652C-E841-1CD17EF6C127">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:43 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="B661B87A-DAF7-D5A7-72E1-73EEBBBA2877">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:43 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth" id="A2458A94-4AFD-01D2-96CD-A84D24508400">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:43 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E947E35F-B6B2-F6DC-940B-2269A710A982">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:43 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hp" id="77E510EC-6ED0-967C-C29E-910A734DA5FA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:43 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job" id="2378925A-8938-CBC8-39A2-3C8876E1C2C6">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:43 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90D6994E-65D2-AF1D-D325-6B272D2EB541" name="Customer_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:43 UTC</createdTime>
+<ownerDesignName>bankProjectERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F196ABD-D424-1CBA-A849-C820AD995F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
